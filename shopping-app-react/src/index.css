@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  text-align: center;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm314-adj-02-g_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8ad547271612c88f2095746cbfd7f662");
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: white;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a:link {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  background-color:teal;
+  color: white;
+  font-size: large;
+}
+
+.table{
+  background: rgba(0, 0, 0, 0.6);
+	position: relative;
+	opacity: 0.97;
+	font-size: 1em;
+  margin-left: 18em;
+  padding: 0.8em;
+  height: 2em;
+}
+
+.order{
+  padding: 2em;
+}
+
+.navbarProceed :link{
+  margin-left: 10em;
+  align-items: center;
+  background-color: rgb(0, 200, 0);
+}
+
+.navbarProceed :hover{
+  background-color: rgb(0, 157, 0);;
+}
+
+.signform{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+  height: 30rem;
+  margin-top: 5em;
+}
+
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+  height: 20rem;
+}
+
+.form input, .signform input{
+  width: 100%;
+  padding: 0.604rem 0;
+  font-size: 0.8rem;
+  color: lightgray;
+  letter-spacing: 0.042rem;
+  margin-bottom: 1.866rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+  font-weight: lighter;
+}
+
+.submit{
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(0, 200, 0);
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 0.8rem;
+}
+
+.submit:hover{
+  background-color: rgb(0, 157, 0);
+}
+
+.login{
+  color: white;
+}
+
+.header{
+  color: black;
+  font-size: x-large;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
